@@ -1,9 +1,9 @@
-podcastpedia
+podcastpedia an amazing project
 ================
 
 [Podcastpedia.org] - the open source podcast directory - **website was decommissioned**
 
-## Project structure
+## Project outline
 Podcastpedia is a multi-module  [Maven](http://maven.apache.org/download.cgi) project structured in the following way:
 ```
 +---podcastpedia
@@ -23,12 +23,12 @@ Podcastpedia is a multi-module  [Maven](http://maven.apache.org/download.cgi) pr
 * **sql-migration** - contains database delta scripts; uses [MyBatis Migrations](http://www.mybatis.org/migrations/)
 * **admin** - administration web application used to insert/update/remove podcasts from the directory; implemnted with [Spring MVC](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html)
 
-Setup Guide
+Setup Guidess
 ================
 _(~15min of which 13 min MySql installation)_
 ## Install and run the Podcastpedia.org website on your local machine
 
-### Prerequisites
+### Prerequisites...
 ####
 * MySQL 5.5, 5.6 or 5.7(recommended)
   * [Download MySQL Community Server](http://dev.mysql.com/downloads/mysql/)
